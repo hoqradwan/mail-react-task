@@ -34,7 +34,7 @@ function App() {
           </div>
         </div>
         <Routes>
-              <Route path="/" element={<Inboxes></Inboxes>}></Route>
+              <Route path="/" eleme 	nt={<Inboxes></Inboxes>}></Route>
               <Route path="/spam" element={<Spams></Spams>}></Route>
               <Route
                 path="/deleted"
@@ -55,7 +55,7 @@ function App() {
             element={<SpamDetail></SpamDetail>}
           >
           </Route>
-        </Routes>
+        </Routes>    
       </div>
     </>
   );
